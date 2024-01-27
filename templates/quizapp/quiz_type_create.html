@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body  %} 
+
+        <h1>Quiz Type Create</h1>
+        <hr>
+    <form action="/Name/" method="post">
+        <label for="Name">Quiz Type Create: </label>
+        <input id="Name" type="text" name="Name" value="{{ current_name }}">
+        <input type="submit" value="OK">
+    </form>
+{% endblock %}
